@@ -39,7 +39,7 @@ public class Factorial {
 		 if(this.scanner.hasNextInt()){
 			 this.num = this.scanner.nextInt();
 			 if(this.num >= 1 && this.num <= 10){
-				 this.printStream.println("Number selected: " + this.num);
+				 this.printStream.print("Number selected: " + this.num);
 				return this.num;
 			 }
 		 }else{
