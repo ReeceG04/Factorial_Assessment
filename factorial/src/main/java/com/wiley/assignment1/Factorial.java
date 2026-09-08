@@ -47,7 +47,7 @@ public class Factorial {
 		 }
 
 		 //INVALID MESSAGE IF OUTSIDE RANGE
-		 this.printStream.println("Invalid entry. Please enter an integer between 1 and 10, inclusive.");
+		 this.printStream.print("Invalid entry. Please enter an integer between 1 and 10, inclusive.");
 		return -1;
 
 		//YOUR CODE ENDS HERE
